@@ -1,0 +1,46 @@
+.shopItem {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 800px;
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    flex-direction: row;
+    box-sizing: content-box;
+    align-items: center;
+    justify-items: right;
+}
+
+.shopItem .price {
+    color: grey;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.shopItem button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-left: auto;
+}
+
+.shopItem button:hover {
+    opacity: 0.7;
+}
+
+.shopItem img {
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.shopItem p {
+    width: 200px;
+}
